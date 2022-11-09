@@ -3,13 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0">
     <link rel="icon" tyep="image/x-icon" href="/images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <title>News homepage</title>
 </head>
-<body>
-    
+<body class="min-h-screen overflow-x-hidden">
+    <header class="bg-white sticky z-10 top-0">
+        <section class="mx-auto flex justify-between items-center px-5 py-6">
+            <img src="/images/logo.svg" alt="" class="w-14">
+
+            <button class="md:hidden cursor-pointer" id="ham-button">
+                <img src="/images/icon-menu.svg" alt="">
+            </button>
+
+            <nav class="hidden md:block" aria-label="main">
+                <a href="#">Home</a>
+                <a href="#">New</a>
+                <a href="#">Popular</a>
+                <a href="#">Trending</a>
+                <a href="#">Categories</a>
+            </nav>
+        </section>
+
+        <section class="absolute w-8/12 bg-white top-0 right-0 flex-col justify-start items-start origin-top animate-open-menu hidden border-4 shadow-inner" id="menu-nav">
+            <button class="self-end mr-5 mt-6">
+                <img src="/images/icon-menu-close.svg" alt="">
+            </button>
+
+            <nav class="flex flex-col min-h-screen justify-start items-start mt-20 ml-10 font-onlyFont text-xl font-normal" aria-label="mobile">
+                <a href="#" class="pt-6">Home</a>
+                <a href="#" class="pt-6">New</a>
+                <a href="#" class="pt-6">Popular</a>
+                <a href="#" class="pt-6">Trending</a>
+                <a href="#" class="pt-6">Categories</a>
+            </nav>
+        </section>
+    </header>
+
+    <section class="first-whole-sec md:grid md:grid-cols-2 px-5">
+        <div>
+            <img src="/images/image-web-3-mobile.jpg" alt="">
+            <div class="sub-section md:grid md:grid-cols-2">
+                <h1 class="text-4xl font-onlyFont font-extrabold w-72 sm:text-5xl">The Bright Future Of Web 3.0?</h1>
+                <div class="second-sub-section">
+                    <h3 class="font-onlyFont text-sm font-medium text-gray-700 w-firstwidth">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</h3>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+
+        </div>
+    </section>
+
+    <section class="second-whole-sec">
+
+    </section>
 
     <script src="script.js"></script>
 </body>
