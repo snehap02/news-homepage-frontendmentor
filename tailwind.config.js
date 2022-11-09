@@ -17,13 +17,21 @@ module.exports = {
         onlyFont: 'Inter'
       },
       width:{
-        firstwidth: '360px'
+        firstwidth: '320px'
       },
       colors:{
-        firstBg: 'rgba(0, 0, 0, 0.47)'
+        firstBg: 'rgba(0, 0, 0, 0.47)',
+        button: '#f15e50',
+        yellowish: '#e9ab53',
+        secondContent: '#00001a',
+        secondUnderText: '#5d5f79',
+        onetwothree: '#c5c6ce'
       },
       translate:{
         translatex: 'translateX(-100%)'
+      },
+      margin:{
+        right: '600px'
       }
     },
   },
