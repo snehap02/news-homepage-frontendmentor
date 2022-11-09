@@ -18,6 +18,12 @@ module.exports = {
       },
       width:{
         firstwidth: '360px'
+      },
+      colors:{
+        firstBg: 'rgba(0, 0, 0, 0.47)'
+      },
+      translate:{
+        translatex: 'translateX(-100%)'
       }
     },
   },
