@@ -17,7 +17,8 @@ module.exports = {
         onlyFont: 'Inter'
       },
       width:{
-        firstwidth: '320px'
+        firstwidth: '350px',
+        secondwidth: '410px'
       },
       colors:{
         firstBg: 'rgba(0, 0, 0, 0.47)',
