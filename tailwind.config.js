@@ -36,6 +36,9 @@ module.exports = {
       },
       margin:{
         right: '600px'
+      },
+      transitionDuration:{
+        transitionTime: '0.5s'
       }
     },
   },
