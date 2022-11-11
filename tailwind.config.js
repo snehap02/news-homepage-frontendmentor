@@ -18,7 +18,10 @@ module.exports = {
       },
       width:{
         firstwidth: '350px',
-        secondwidth: '410px'
+        secondwidth: '320px'
+      },
+      height:{
+        lineheight: '2px'
       },
       colors:{
         firstBg: 'rgba(0, 0, 0, 0.47)',
