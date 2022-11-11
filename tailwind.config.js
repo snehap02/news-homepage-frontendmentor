@@ -18,7 +18,7 @@ module.exports = {
       },
       width:{
         firstwidth: '350px',
-        secondwidth: '320px'
+        secondwidth: '290px'
       },
       height:{
         lineheight: '2px'
